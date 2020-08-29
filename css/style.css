@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/*main style*/
+html , body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
+
+}
+a{
+    color:#111;
+    text-decoration: none;
+}
+.danger-color{
+ color: #E01705;
+} 
+.bg-color{
+    color: #0A1F44;
+}
+.container{
+    width: 80%;
+}
+/*top bar*/
+.top-bar{
+    background-color: #0A1F44;
+    padding: 10px 0;
+}
+.top-bar button ,
+.showcase .jumbotron .title .get ,
+.showcase .jumbotron .title .go ,
+.pricing .information .row .col button ,
+.pricing .information .row .col .btn ,
+.contact .row .col .btn ,
+.buy .btn{
+    background-color: #E01705;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+}
+nav{
+    position: relative;
+    top: 55px;
+    background-color: none !important;
+}
+.navbar .navbar-nav .nav-item{
+    margin: 0 10px;
+}
+/*jumbotron*/
+.jumbotron{
+    background-color:white;
+    margin-top:100px;
+    
+}
+.showcase .container{
+    display: flex;
+    justify-content: space-between;
+}
+.showcase .jumbotron .title h1 ,
+.subheading .heading h1 ,
+.techniacl .heading-1 h1 ,
+.about-us .about-text h1 ,
+.pricing .pricing-text h1 ,
+.frequently h1 ,
+.buy h1  {
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.showcase .jumbotron .title .get ,
+.showcase .jumbotron .title .go{
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+.showcase .jumbotron .title .go{
+    background-color: #0a1f44;
+}
+/*subheading*/
+.subheading{
+    padding-top: 60px;
+    background-color: #f8f8f8;
+    height: 800px;
+}
+.subheading .heading h6 ,
+.techniacl .heading-1 h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+.subheading .heading p{
+    font-size: 18px;
+}
+/*prperties*/
+.properties .properties-1 .row{
+    display: flex;
+    flex-direction: center;
+}
+.properties .properties-2{
+    position: relative;
+    left: 750px;
+    bottom: 630px;
+}
+.properties .properties-1{
+    position: relative;
+    top: 70px;
+}
+.properties .image{
+    position: relative;
+    left: 450px;
+    bottom: 360px;
+}
+.properties .row h4 ,
+.catalog .row .info h4{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.properties .row .icon img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid #E01705;
+    position: relative;
+    top: 20px;
+}
+/*technical*/
+.techniacl{
+   padding-top: 50px;
+}
+.techniacl .heading-1 p{
+    font-size: 14px;
+}
+/*details*/
+.catalog{
+    margin-top: 70px;
+    display: flex;
+}
+.tech-2 .image img{
+    position: relative;
+    top: 70px;
+}
+.catalog .row .col{
+    border: 1px solid black;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+}
+.catalog .row .col:hover{
+    background-color: #E01705;
+    color: white;
+}
+.catalog .row .col .icon-2 img ,
+.about-us .row .col .image2 img{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #E01705;
+    padding: 10px;
+    margin-top: 20px;
+}
+/*about*/
+.about-us {
+    background-color: #f8f8f8;
+    margin-top: 100px;
+}
+.about-us .about-text{
+    padding-top: 60px;
+}
+.about-us .about-text p ,
+.pricing .pricing-text p{
+    font-size: 14px;
+}
+.about-us .row{
+    padding-top: 80px;
+    padding-left: 80px;
+
+}
+.about-us .row .col{
+    border: 1px solid  rgba(173, 172, 172, 0.548);
+    margin: 20px;
+    background-color: white;
+}
+.about-us .row .col .image img{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgba(173, 172, 172, 0.548);
+    padding: 10px;
+    position: relative;
+    bottom: 40px;
+}
+.about-us .row .col .stars{
+    position: relative;
+    bottom: 40px;
+}
+.about-us .row .col .col-title h6 ,
+.pricing .row .first .col-title h6{
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;   
+}
+.about-us .row .col p{
+    position: relative;
+    bottom: 30px;
+}
+.about-us .row .col .image2 img ,
+.pricing .information .row .first img{
+    background-color: #E01705;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+}
+/*pricing*/
+.pricing{
+    margin-top: 120px;
+}
+.pricing .first{
+    background-color: #E01705;
+    color: white;
+}
+.pricing .information{
+    margin-top: 50px;
+}
+.pricing .information .row .col{
+    border: 1px solid #E01705;
+}
+.pricing .information .row .first .profile2 img{
+    border-radius: 50%;
+    margin-top: 80px;
+    
+}
+.pricing .information .row .first p{
+    margin-top: 30px;
+} 
+.pricing .row .first .col-title h6{
+    position: relative;
+    top: 10px;
+}
+.pricing .row .first .stars img{
+    position: relative;
+    top: 10px;
+}
+.pricing .row .first .image2 img{
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+}
+.pricing .information .row .col h4{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.pricing .information .row .col .off{
+    color: gray;
+    text-decoration: line-through;
+    position: relative;
+    right: 60px;
+    bottom: 5px;
+}
+.pricing .information .row .col button{
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+    padding: 0 15px;
+}
+.pricing .information .row .col h1{
+    font-weight: bolder;
+}
+.pricing .information .row .col ul{
+    list-style: none;
+    position: relative;
+    right: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pricing .information .row .col ul .li-1{
+    position: relative;
+    right: 40px;
+}
+.pricing .information .row .col ul li::before{
+    content: url("../images/icon/checkmark.png");
+}
+.pricing .information .row .col .btn{
+    position: relative;
+    top: 1px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+/*frequently*/
+.frequently{
+    margin-top: 150px;
+}
+.frequently .row{
+    margin-top: 80px;
+}
+.frequently .row .col h4{
+    font-weight: bold;
+}
+/*contct*/
+.contact{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact .row .col .get{
+    margin-top: 50px;
+}
+.contact .row .col .get h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+.contact .row .col h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact .row .col .colaborate .email::before{
+    content: url(../images/icon/phone.png);
+}
+.contact .row .col .colaborate .fax::before{
+    content: url(../images/icon/mail.png);
+}
+.contact .row .col h2{
+    font-weight: bold;
+}
+.contact .row .col input{
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    border-radius:15px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    border: none;
+}
+.contact .row .col textarea{
+    border-radius: 15px;
+    margin-top: 10px;
+    border: none;
+    background-color: #f8f8f8;
+
+}
+.contact .row .col .btn{
+    width: 300px;
+    border-radius: 20px;
+}
+/*buy*/
+.buy{
+    margin-bottom: 50px;
+}
+.buy .btn{
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.buy p{
+    font-size: 16px;
+}
+/*footer*/
+.footer{
+    background-color: #0A1F44;
+    height: 300px;
+}
+
+.footer .navbar{
+    background-color: #0A1F44;
+    
+}
+.footer .navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.footer .social{
+    margin-top:100px;
+}
+.footer .social hr{
+    border-bottom:1px solid white;
+}
+.footer .social .copyright{
+    position: relative;
+    left: 700px;
+    bottom: 30px;
+}
+
+
